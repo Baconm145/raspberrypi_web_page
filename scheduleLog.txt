@@ -1,0 +1,279 @@
+{2018/05/09 10:21:18} RaspiMJPEG Version 5.8.10
+{2018/05/09 10:21:18} recommended video buffer size 65536
+{2018/05/09 10:21:18} h264 size set to 131072
+{2018/05/09 10:21:18} recommended video buffers 1
+{2018/05/09 10:21:18} h264 buffers set to recommended 1
+{2018/05/09 10:21:18} Opening FIFO 0 /var/www/html/FIFO 6
+{2018/05/09 10:21:18} MJPEG streaming, ready to receive commands
+{2018/05/09 10:21:18} send smd 9
+[2018/05/09 10:21:22] RaspiCam support started
+[2018/05/09 10:21:22] Capture Pipe already exists /var/www/html/FIFO1
+[2018/05/09 10:21:22] Scheduler loop is started
+{2018/05/09 10:21:22} Starting command loop
+[2018/05/09 10:21:22] Reload parameters command requested
+[2018/05/09 10:21:22] Scheduler loop is started
+[2018/05/09 10:21:23] New period detected 0
+[2018/05/09 10:21:23] Scheduled management tasks. Next at 1525864883
+[2018/05/09 10:22:01] Logged in user::
+[2018/05/09 10:22:01] UserLevel 6
+{2018/05/09 10:23:03} External motion detection started
+{2018/05/09 10:23:03} recommended video buffer size 65536
+{2018/05/09 10:23:03} h264 size set to 131072
+{2018/05/09 10:23:03} recommended video buffers 1
+{2018/05/09 10:23:03} h264 buffers set to recommended 1
+{2018/05/09 10:23:14} External motion detection stopped
+{2018/05/09 10:23:14} recommended video buffer size 65536
+{2018/05/09 10:23:14} h264 size set to 131072
+{2018/05/09 10:23:14} recommended video buffers 1
+{2018/05/09 10:23:14} h264 buffers set to recommended 1
+{2018/05/09 10:23:52} RaspiMJPEG Version 5.8.10
+{2018/05/09 10:23:53} recommended video buffer size 65536
+{2018/05/09 10:23:53} h264 size set to 131072
+{2018/05/09 10:23:53} recommended video buffers 1
+{2018/05/09 10:23:53} h264 buffers set to recommended 1
+{2018/05/09 10:23:53} Opening FIFO 0 /var/www/html/FIFO 7
+{2018/05/09 10:23:53} MJPEG streaming, ready to receive commands
+{2018/05/09 10:23:53} send smd 9
+[2018/05/09 10:23:57] RaspiCam support started
+[2018/05/09 10:23:57] Capture Pipe already exists /var/www/html/FIFO1
+[2018/05/09 10:23:57] Scheduler loop is started
+{2018/05/09 10:23:57} Starting command loop
+[2018/05/09 10:23:57] Reload parameters command requested
+[2018/05/09 10:23:57] Scheduler loop is started
+[2018/05/09 10:23:58] New period detected 0
+[2018/05/09 10:23:58] Scheduled management tasks. Next at 1525865038
+[2018/05/09 10:24:29] Logged in user::
+[2018/05/09 10:24:29] UserLevel 6
+{2018/05/09 10:24:49} External motion detection started
+{2018/05/09 10:24:49} recommended video buffer size 65536
+{2018/05/09 10:24:49} h264 size set to 131072
+{2018/05/09 10:24:49} recommended video buffers 1
+{2018/05/09 10:24:49} h264 buffers set to recommended 1
+{2018/05/09 10:24:59} External motion detection stopped
+{2018/05/09 10:24:59} recommended video buffer size 65536
+{2018/05/09 10:24:59} h264 size set to 131072
+{2018/05/09 10:24:59} recommended video buffers 1
+{2018/05/09 10:24:59} h264 buffers set to recommended 1
+[2018/05/09 10:26:46] Logged in user::
+[2018/05/09 10:26:46] UserLevel 6
+{2018/05/09 10:28:10} Stream halted
+[2018/05/09 10:35:33] Logged in user::
+[2018/05/09 10:35:33] UserLevel 6
+{2018/05/09 10:37:14} recommended video buffer size 65536
+{2018/05/09 10:37:14} h264 size set to 131072
+{2018/05/09 10:37:14} recommended video buffers 1
+{2018/05/09 10:37:14} h264 buffers set to recommended 1
+{2018/05/09 10:37:14} Stream continued
+[2018/05/09 10:37:30] Logged in user::
+[2018/05/09 10:37:30] UserLevel 6
+[2018/05/09 10:37:33] Logged in user::
+[2018/05/09 10:37:33] UserLevel 6
+[2018/05/09 10:37:34] Logged in user::
+[2018/05/09 10:37:34] UserLevel 6
+[2018/05/09 10:37:36] Logged in user::
+[2018/05/09 10:37:36] UserLevel 6
+[2018/05/09 11:03:02] Logged in user::
+[2018/05/09 11:03:02] UserLevel 6
+{2018/05/09 11:03:04} Stream halted
+[2018/05/09 11:05:35] Logged in user::
+[2018/05/09 11:05:35] UserLevel 6
+{2018/05/09 11:05:38} recommended video buffer size 65536
+{2018/05/09 11:05:38} h264 size set to 131072
+{2018/05/09 11:05:38} recommended video buffers 1
+{2018/05/09 11:05:38} h264 buffers set to recommended 1
+{2018/05/09 11:05:38} Stream continued
+{2018/05/09 11:05:41} Stream halted
+[2018/05/09 11:23:59] Scheduled management tasks. Next at 1525868639
+[2018/05/09 12:05:51] Logged in user::
+[2018/05/09 12:05:51] UserLevel 6
+{2018/05/09 12:05:56} recommended video buffer size 65536
+{2018/05/09 12:05:56} h264 size set to 131072
+{2018/05/09 12:05:56} recommended video buffers 1
+{2018/05/09 12:05:56} h264 buffers set to recommended 1
+{2018/05/09 12:05:56} Stream continued
+{2018/05/09 12:06:15} External motion detection started
+{2018/05/09 12:06:15} recommended video buffer size 65536
+{2018/05/09 12:06:15} h264 size set to 131072
+{2018/05/09 12:06:15} recommended video buffers 1
+{2018/05/09 12:06:15} h264 buffers set to recommended 1
+{2018/05/09 12:06:23} External motion detection stopped
+{2018/05/09 12:06:23} recommended video buffer size 65536
+{2018/05/09 12:06:23} h264 size set to 131072
+{2018/05/09 12:06:23} recommended video buffers 1
+{2018/05/09 12:06:23} h264 buffers set to recommended 1
+{2018/05/09 12:08:05} Stream halted
+[2018/05/09 12:24:00] Scheduled management tasks. Next at 1525872240
+{2018/05/09 12:34:09} recommended video buffer size 65536
+{2018/05/09 12:34:09} h264 size set to 131072
+{2018/05/09 12:34:09} recommended video buffers 1
+{2018/05/09 12:34:09} h264 buffers set to recommended 1
+{2018/05/09 12:34:09} Stream continued
+{2018/05/09 12:34:55} Stream halted
+{2018/05/09 12:34:56} recommended video buffer size 65536
+{2018/05/09 12:34:56} h264 size set to 131072
+{2018/05/09 12:34:56} recommended video buffers 1
+{2018/05/09 12:34:56} h264 buffers set to recommended 1
+{2018/05/09 12:34:56} Stream continued
+[2018/05/09 12:35:12] Logged in user::
+[2018/05/09 12:35:12] UserLevel 6
+{2018/05/09 12:35:43} Stream halted
+{2018/05/09 12:35:54} recommended video buffer size 65536
+{2018/05/09 12:35:54} h264 size set to 131072
+{2018/05/09 12:35:54} recommended video buffers 1
+{2018/05/09 12:35:54} h264 buffers set to recommended 1
+{2018/05/09 12:35:54} Stream continued
+{2018/05/09 12:35:58} Stream halted
+[2018/05/09 12:36:05] Logged in user::
+[2018/05/09 12:36:05] UserLevel 6
+{2018/05/09 12:36:13} recommended video buffer size 65536
+{2018/05/09 12:36:13} h264 size set to 131072
+{2018/05/09 12:36:13} recommended video buffers 1
+{2018/05/09 12:36:13} h264 buffers set to recommended 1
+{2018/05/09 12:36:13} Stream continued
+{2018/05/09 12:37:08} RaspiMJPEG Version 5.8.10
+{2018/05/09 12:37:09} recommended video buffer size 65536
+{2018/05/09 12:37:09} h264 size set to 131072
+{2018/05/09 12:37:09} recommended video buffers 1
+{2018/05/09 12:37:09} h264 buffers set to recommended 1
+{2018/05/09 12:37:09} Opening FIFO 0 /var/www/html/FIFO 7
+{2018/05/09 12:37:09} MJPEG streaming, ready to receive commands
+{2018/05/09 12:37:09} send smd 9
+[2018/05/09 12:37:13] RaspiCam support started
+[2018/05/09 12:37:13] Capture Pipe already exists /var/www/html/FIFO1
+[2018/05/09 12:37:13] Scheduler loop is started
+{2018/05/09 12:37:13} Starting command loop
+[2018/05/09 12:37:13] Reload parameters command requested
+[2018/05/09 12:37:13] Scheduler loop is started
+[2018/05/09 12:37:14] New period detected 0
+[2018/05/09 12:37:14] Scheduled management tasks. Next at 1525873034
+[2018/05/09 14:34:50] Scheduled management tasks. Next at 1525880090
+[2018/05/09 14:37:31] Logged in user::
+[2018/05/09 14:37:31] UserLevel 6
+[2018/05/09 14:38:18] Logged in user::
+[2018/05/09 14:38:18] UserLevel 6
+[2018/05/09 14:38:25] Logged in user::
+[2018/05/09 14:38:25] UserLevel 6
+[2018/05/09 15:24:20] Logged in user::
+[2018/05/09 15:24:20] UserLevel 6
+{2018/05/09 15:25:36} RaspiMJPEG Version 5.8.10
+{2018/05/09 15:25:36} recommended video buffer size 65536
+{2018/05/09 15:25:36} h264 size set to 131072
+{2018/05/09 15:25:36} recommended video buffers 1
+{2018/05/09 15:25:36} h264 buffers set to recommended 1
+{2018/05/09 15:25:36} Opening FIFO 0 /var/www/html/FIFO 7
+{2018/05/09 15:25:36} MJPEG streaming, ready to receive commands
+{2018/05/09 15:25:36} send smd 9
+[2018/05/09 15:25:41] RaspiCam support started
+[2018/05/09 15:25:41] Capture Pipe already exists /var/www/html/FIFO1
+[2018/05/09 15:25:41] Scheduler loop is started
+{2018/05/09 15:25:41} Starting command loop
+[2018/05/09 15:25:42] Reload parameters command requested
+[2018/05/09 15:25:42] Scheduler loop is started
+[2018/05/09 15:25:43] New period detected 0
+[2018/05/09 15:25:43] Scheduled management tasks. Next at 1525883143
+[2018/05/09 15:25:58] Logged in user::
+[2018/05/09 15:25:58] UserLevel 6
+{2018/05/09 15:27:21} RaspiMJPEG Version 5.8.10
+{2018/05/09 15:27:22} recommended video buffer size 65536
+{2018/05/09 15:27:22} h264 size set to 131072
+{2018/05/09 15:27:22} recommended video buffers 1
+{2018/05/09 15:27:22} h264 buffers set to recommended 1
+{2018/05/09 15:27:22} Opening FIFO 0 /var/www/html/FIFO 7
+{2018/05/09 15:27:22} MJPEG streaming, ready to receive commands
+{2018/05/09 15:27:22} send smd 9
+[2018/05/09 15:27:26] RaspiCam support started
+[2018/05/09 15:27:26] Capture Pipe already exists /var/www/html/FIFO1
+[2018/05/09 15:27:26] Scheduler loop is started
+{2018/05/09 15:27:26} Starting command loop
+[2018/05/09 15:27:26] Reload parameters command requested
+[2018/05/09 15:27:26] Scheduler loop is started
+[2018/05/09 15:27:27] New period detected 0
+[2018/05/09 15:27:27] Scheduled management tasks. Next at 1525883247
+[2018/05/09 15:27:41] Logged in user::
+[2018/05/09 15:27:41] UserLevel 6
+{2018/05/09 15:28:12} Capturing image
+{2018/05/09 15:28:18} Capturing image
+[2018/05/09 15:29:22] Logged in user::
+[2018/05/09 15:29:22] UserLevel 6
+{2018/05/09 15:30:26} SIGINT/SIGTERM received, stopping
+{2018/05/09 15:31:07} RaspiMJPEG Version 5.8.10
+{2018/05/09 15:31:08} recommended video buffer size 65536
+{2018/05/09 15:31:08} h264 size set to 131072
+{2018/05/09 15:31:08} recommended video buffers 1
+{2018/05/09 15:31:08} h264 buffers set to recommended 1
+{2018/05/09 15:31:08} Opening FIFO 0 /var/www/html/FIFO 7
+{2018/05/09 15:31:08} MJPEG streaming, ready to receive commands
+{2018/05/09 15:31:08} send smd 9
+[2018/05/09 15:31:12] RaspiCam support started
+[2018/05/09 15:31:12] Capture Pipe already exists /var/www/html/FIFO1
+{2018/05/09 15:31:12} Starting command loop
+[2018/05/09 15:31:12] Scheduler loop is started
+[2018/05/09 15:31:12] Reload parameters command requested
+[2018/05/09 15:31:12] Scheduler loop is started
+[2018/05/09 15:31:13] New period detected 0
+[2018/05/09 15:31:13] Scheduled management tasks. Next at 1525883473
+[2018/05/09 15:31:20] Logged in user::
+[2018/05/09 15:31:20] UserLevel 6
+{2018/05/09 15:31:36} Capturing image
+{2018/05/09 15:32:33} Capturing image
+{2018/05/09 15:37:17} Change: image_effect = cartoon
+{2018/05/09 15:37:33} Change: image_effect = none
+{2018/05/09 15:41:15} RaspiMJPEG Version 5.8.10
+{2018/05/09 15:41:15} recommended video buffer size 65536
+{2018/05/09 15:41:15} h264 size set to 131072
+{2018/05/09 15:41:15} recommended video buffers 1
+{2018/05/09 15:41:15} h264 buffers set to recommended 1
+{2018/05/09 15:41:15} Opening FIFO 0 /var/www/html/FIFO 7
+{2018/05/09 15:41:15} MJPEG streaming, ready to receive commands
+{2018/05/09 15:41:15} send smd 9
+[2018/05/09 15:41:19] RaspiCam support started
+[2018/05/09 15:41:20] Capture Pipe already exists /var/www/html/FIFO1
+[2018/05/09 15:41:20] Scheduler loop is started
+{2018/05/09 15:41:20} Starting command loop
+[2018/05/09 15:41:20] Reload parameters command requested
+[2018/05/09 15:41:20] Scheduler loop is started
+[2018/05/09 15:41:21] New period detected 0
+[2018/05/09 15:41:21] Scheduled management tasks. Next at 1525884081
+[2018/05/09 15:41:26] Logged in user::
+[2018/05/09 15:41:26] UserLevel 6
+[2018/05/09 15:41:26] Logged in user::
+[2018/05/09 15:41:26] UserLevel 6
+{2018/05/09 15:43:55} Capturing image
+[2018/05/09 15:44:07] Logged in user::
+[2018/05/09 15:44:07] UserLevel 6
+{2018/05/09 15:41:14} RaspiMJPEG Version 5.8.10
+{2018/05/09 15:41:14} recommended video buffer size 65536
+{2018/05/09 15:41:14} h264 size set to 131072
+{2018/05/09 15:41:14} recommended video buffers 1
+{2018/05/09 15:41:14} h264 buffers set to recommended 1
+{2018/05/09 15:41:14} Opening FIFO 0 /var/www/html/FIFO 7
+{2018/05/09 15:41:14} MJPEG streaming, ready to receive commands
+{2018/05/09 15:41:14} send smd 9
+[2018/05/09 15:41:18] RaspiCam support started
+[2018/05/09 15:41:18] Capture Pipe already exists /var/www/html/FIFO1
+[2018/05/09 15:41:18] Scheduler loop is started
+{2018/05/09 15:41:18} Starting command loop
+[2018/05/09 15:41:18] Reload parameters command requested
+[2018/05/09 15:41:18] Scheduler loop is started
+[2018/05/09 15:41:19] New period detected 0
+[2018/05/09 15:41:19] Scheduled management tasks. Next at 1525884079
+{2018/05/09 15:43:20} RaspiMJPEG Version 5.8.10
+{2018/05/09 15:43:21} recommended video buffer size 65536
+{2018/05/09 15:43:21} h264 size set to 131072
+{2018/05/09 15:43:21} recommended video buffers 1
+{2018/05/09 15:43:21} h264 buffers set to recommended 1
+{2018/05/09 15:43:21} Opening FIFO 0 /var/www/html/FIFO 7
+{2018/05/09 15:43:21} MJPEG streaming, ready to receive commands
+{2018/05/09 15:43:21} send smd 9
+[2018/05/09 15:43:27] RaspiCam support started
+[2018/05/09 15:43:27] Capture Pipe already exists /var/www/html/FIFO1
+[2018/05/09 15:43:27] Scheduler loop is started
+{2018/05/09 15:43:27} Starting command loop
+[2018/05/09 15:43:27] Reload parameters command requested
+[2018/05/09 15:43:27] Scheduler loop is started
+[2018/05/09 15:43:28] New period detected 0
+[2018/05/09 15:43:28] Scheduled management tasks. Next at 1525884208
+[2018/05/09 15:45:04] Logged in user::
+[2018/05/09 15:45:04] UserLevel 6
+[2018/05/15 20:12:34] New period detected 0
+[2018/05/15 20:12:34] Scheduled management tasks. Next at 1526418754
