@@ -5,7 +5,7 @@ function sendControlRequest( pkg ) {
     xhr.send();
 }
 
-document.onkeyup = function( event ) {
+document.onkeydown = function( event ) {
 	console.log( event.key );
 	//lfs = left side forward start
 	//rfs = right side forward start
@@ -31,7 +31,7 @@ document.onkeyup = function( event ) {
 	}
 }
 
-document.onkeydown = function( event ) {
+document.onkeyup = function( event ) {
 	console.log( event );
 	//lfe = left side forward end
 	//rfe = right side forward end
