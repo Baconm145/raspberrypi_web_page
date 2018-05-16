@@ -14,20 +14,22 @@ document.onkeydown = function( event ) {
 	if ( event.key == "w" ) {
 		sendControlRequest( "lfs" );
 		sendControlRequest( "rfs" );
-		console.log( "start forward" );
 	}
 	if ( event.key == "s" ) {
 		sendControlRequest( "lbs" );
 		sendControlRequest( "rbs" );
-		console.log( "start backward" );
 	}
 	if ( event.key == "a" ) {
 		sendControlRequest( "rfs" );
-		console.log( "start left" );
 	}
 	if ( event.key == "d" ) {
 		sendControlRequest( "lfs" );
-		console.log( "start right" );
+	}
+	if ( event.key == "z" ) {
+		sendControlRequest( "rbs" );
+	}
+	if ( event.key == "c" ) {
+		sendControlRequest( "lbs" );
 	}
 }
 
@@ -50,5 +52,11 @@ document.onkeyup = function( event ) {
 	}
 	if ( event.key == "d" ) {
 		sendControlRequest( "lfe" );
+	}
+	if ( event.key == "z" ) {
+		sendControlRequest( "rbe" );
+	}
+	if ( event.key == "c" ) {
+		sendControlRequest( "lbe" );
 	}
 }

@@ -8,19 +8,19 @@
 	system( 'gpio write 7 1' );
 	system( 'gpio write 1 1' );	
 	$q = $_REQUEST["name"];
-	if ( $q == lfs ) {
+	if ( $q == rfs ) {
 		system( 'gpio write 4 1' );
 		system( 'gpio write 5 0' );
 	}
-	if ( $q == rfs ) {
+	if ( $q == lfs ) {
 		system( 'gpio write 0 0' );
 		system( 'gpio write 3 1' );
 	}
-	if ( $q == lbs ) {
+	if ( $q == rbs ) {
 		system( 'gpio write 4 0' );
 		system( 'gpio write 5 1' );
 	}
-	if ( $q == rbs ) {
+	if ( $q == lbs ) {
 		system( 'gpio write 0 1' );
 		system( 'gpio write 3 0' );
 	}
