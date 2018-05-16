@@ -1,4 +1,4 @@
-document.onkeypress = function( event ) {
+document.onkeydown = function( event ) {
 	console.log( event );
 }
 
