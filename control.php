@@ -1,12 +1,4 @@
 <?php
-	//lfs = left side forward start
-	//rfs = right side forward start
-	//lbs = left side backward start
-	//rbs = right side backward start
-	//lfe = left side forward end
-	//rfe = right side forward end
-	//lbe = left side backward end
-	//rbe = right side backward end
 	system( 'gpio mode 1 out' );
 	system( 'gpio mode 4 out' );
 	system( 'gpio mode 5 out' );
