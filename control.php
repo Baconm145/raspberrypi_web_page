@@ -47,7 +47,5 @@
 		system( 'gpio write 5 0' );
 		system( 'gpio write 0 0' );
 		system( 'gpio write 3 0' );
-	}	
-	system( 'gpio write 4 1' );
-	system( 'gpio write 4 0' );
+	}
 ?>
