@@ -11,25 +11,27 @@ document.onkeydown = function( event ) {
 	//rfs = right side forward start
 	//lbs = left side backward start
 	//rbs = right side backward start
-	if ( event.key == "w" ) {
-		sendControlRequest( "lfs" );
-		sendControlRequest( "rfs" );
-	}
-	if ( event.key == "s" ) {
-		sendControlRequest( "lbs" );
-		sendControlRequest( "rbs" );
-	}
-	if ( event.key == "a" ) {
-		sendControlRequest( "rfs" );
-	}
-	if ( event.key == "d" ) {
-		sendControlRequest( "lfs" );
-	}
-	if ( event.key == "z" ) {
-		sendControlRequest( "rbs" );
-	}
-	if ( event.key == "c" ) {
-		sendControlRequest( "lbs" );
+	if ( !event.repeat ) {
+		if ( event.key == "w" ) {
+			sendControlRequest( "lfs" );
+			sendControlRequest( "rfs" );
+		}
+		if ( event.key == "s" ) {
+			sendControlRequest( "lbs" );
+			sendControlRequest( "rbs" );
+		}
+		if ( event.key == "a" ) {
+			sendControlRequest( "rfs" );
+		}
+		if ( event.key == "d" ) {
+			sendControlRequest( "lfs" );
+		}
+		if ( event.key == "z" ) {
+			sendControlRequest( "rbs" );
+		}
+		if ( event.key == "c" ) {
+			sendControlRequest( "lbs" );
+		}
 	}
 }
 
