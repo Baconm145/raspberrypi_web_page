@@ -5,7 +5,8 @@
 	system( 'gpio mode 7 out' );
 	system( 'gpio mode 0 out' );
 	system( 'gpio mode 3 out' );
-	/*
+	system( 'gpio write 7 1' );
+	system( 'gpio write 1 1' );	
 	$q = $_REQUEST["q"];
 	if ( $q == lfs ) {
 		system( 'gpio write 4 1' );
@@ -46,8 +47,7 @@
 		system( 'gpio write 5 0' );
 		system( 'gpio write 0 0' );
 		system( 'gpio write 3 0' );
-	}
-	*/
+	}	
 	system( 'gpio write 4 1' );
 	system( 'gpio write 4 0' );
 ?>
