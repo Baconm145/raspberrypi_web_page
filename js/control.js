@@ -1,7 +1,7 @@
 function sendControlRequest( pkg ) {
 	var xhr = new XMLHttpRequest();
     var params = 'name=' + encodeURIComponent( pkg );
-    xhr.open("GET", '/?' + params, true);
+    xhr.open("GET", 'control.php?q=' + params, true);
     xhr.send();
 }
 
