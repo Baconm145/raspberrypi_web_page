@@ -3,10 +3,10 @@
 	define('LBASE_DIR',dirname(__FILE__));
 	//Global defines and utility functions
 	// version string 
-	define('APP_VERSION', 'v6.4.21');
+	define('APP_VERSION', '');
 
 	// name of this application
-	define('APP_NAME', 'RPi Cam Control');
+	define('APP_NAME', '');
 
 	// the host running the application
 	define('HOST_NAME', php_uname('n'));
@@ -18,7 +18,7 @@
 	define('CAM_NAME', 'mycam');
 
 	// unique camera string build from application name, camera name, host name
-	define('CAM_STRING', APP_NAME . " " . APP_VERSION . ": " . CAM_NAME . '@' . HOST_NAME);
+	define('CAM_STRING', '');
 
 	// file where default settings changes are stored
 	define('CONFIG_FILE1', 'raspimjpeg');
