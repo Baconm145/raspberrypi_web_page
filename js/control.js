@@ -5,7 +5,7 @@ function sendControlRequest( pkg, speed ) {
     xhr.send();
 }
 
-var speed = document.getElementById('speedstr').value
+var speed = document.getElementById('speedstr').value;
 
 function setspeed( inputSpeed ) {
 	speed = inputSpeed;
