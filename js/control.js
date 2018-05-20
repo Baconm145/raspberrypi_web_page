@@ -1,11 +1,9 @@
-function sendControlRequest( pkg, speed ) {
+function sendControlRequest( pkg ) {
 	var xhr = new XMLHttpRequest();
-    var params = 'name=' + encodeURIComponent( pkg ) + '&speed' + encodeURIComponent( pkg );
+    var params = 'name=' + encodeURIComponent( pkg );
     xhr.open("GET", 'control.php?' + params, true);
     xhr.send();
 }
-
-var speed = document.getElementById('speedstr').value;
 
 function setspeed( inputSpeed ) {
 	speed = inputSpeed;
@@ -19,25 +17,25 @@ document.onkeydown = function( event ) {
 	//rbs = right side backward start
 	if ( !event.repeat ) {
 		if ( event.key == "w" ) {
-			sendControlRequest( "lfs", speed );
-			sendControlRequest( "rfs", speed );
+			sendControlRequest( "lfs" );
+			sendControlRequest( "rfs" );
 			setspeed( 30 );
 		}
 		if ( event.key == "s" ) {
-			sendControlRequest( "lbs" , speed );
-			sendControlRequest( "rbs" , speed );
+			sendControlRequest( "lbs" );
+			sendControlRequest( "rbs" );
 		}
 		if ( event.key == "a" ) {
-			sendControlRequest( "rfs" , speed );
+			sendControlRequest( "rfs" );
 		}
 		if ( event.key == "d" ) {
-			sendControlRequest( "lfs", speed );
+			sendControlRequest( "lfs" );
 		}
 		if ( event.key == "z" ) {
-			sendControlRequest( "rbs", speed );
+			sendControlRequest( "rbs" );e
 		}
 		if ( event.key == "c" ) {
-			sendControlRequest( "lbs" , speed );
+			sendControlRequest( "lbs" );
 		}
 	}
 }
