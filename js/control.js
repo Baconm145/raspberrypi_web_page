@@ -8,7 +8,7 @@ function sendControlRequest( pkg ) {
 }
 
 function sys_setspeed() {
-	speed = document.getElementById("speedstr").value
+	speed = document.getElementById("speedstr").value;
 	console.log( speed );
 }
 
