@@ -620,7 +620,7 @@
 					 Set Date/Time 
 					 <input type='text' size=20 id='timestr' value='13 FEB 2018 12:00:00'><input type="button" value="OK" onclick="sys_settime();" <br>
 					 Set Speed 
-					 <input type='text' size=20 id='speedstr'><input type="button" value="OK" onclick="system_setspeed();" <br>
+					 <input type='text' size=20 id='speedstr'><input type="button" value="OK" onclick="sys_setspeed();" <br>
 					 <table class="settingsTable">
 						<?php macroUpdates(); ?>
 					 </table>
