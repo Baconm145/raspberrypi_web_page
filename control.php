@@ -1,6 +1,7 @@
 <?php
 	$q = $_REQUEST["name"];
 	$speed = $_REQUEST["speed"];
+	$speed = 0.5;
 	if ( $q == rfs ) {
 		system( 'echo "23=' . $speed . '" > /dev/pi-blaster' );
 		system( 'echo "24=0" > /dev/pi-blaster' );
