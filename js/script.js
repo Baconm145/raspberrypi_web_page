@@ -148,11 +148,6 @@ function sys_settime() {
   ajax_status.send();
 }
 
-function sys_setspeed() {
-	//var speed = document.getElementById("speedstr").value;
-	console.log( 10 );
-}
-
 //
 // MJPEG
 //
