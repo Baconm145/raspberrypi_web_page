@@ -1,6 +1,8 @@
 <?php
-	$speed = $_REQUEST["speed"];
-	file_put_contents( './speed.txt', $speed );
+	if ( !( $_REQUEST["speed"] == '' ) ) {
+		$speed = $_REQUEST["speed"];
+		file_put_contents( './speed.txt', $speed );
+	}	
 	$q = $_REQUEST["name"];
 	if ( $q == rfs ) {
 		system( 'echo "23=' . $speed . '" > /dev/pi-blaster' );
