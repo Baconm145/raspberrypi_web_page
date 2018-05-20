@@ -1,6 +1,7 @@
 <?php
+	session_start();
+	$speed = $_SESSION['speed'];
 	$q = $_REQUEST["name"];
-	$speed = intval ( $_REQUEST["speed"] );
 	if ( $q == rfs ) {
 		system( 'echo "23=' . $speed . '" > /dev/pi-blaster' );
 		system( 'echo "24=0" > /dev/pi-blaster' );
