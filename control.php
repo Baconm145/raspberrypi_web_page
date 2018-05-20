@@ -1,5 +1,5 @@
 <?php
-	$speed = $_POST['speed'];
+	$speed = $_REQUEST["speed"];
 	file_put_contents( './speed.txt', $speed );
 	$q = $_REQUEST["name"];
 	if ( $q == rfs ) {
