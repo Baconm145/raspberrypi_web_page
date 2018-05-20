@@ -3,11 +3,13 @@
 	if ( $q >= 0 and $q <= 1 ) {
 		$speed = $q;
 	}
-	
+		
 	if ( $speed >= 0 and $speed <= 1 ) {
 	} else { 
 		$speed = 0.3;
 	}
+	
+	$speed = 0.3;
 		
 	if ( $q == rfs ) {
 		system( 'echo "23=' . $speed . '" > /dev/pi-blaster' );
