@@ -1,4 +1,4 @@
-var speed = 100;
+var speed = 1;
 
 function sendControlRequest( pkg ) {
 	var xhr = new XMLHttpRequest();
