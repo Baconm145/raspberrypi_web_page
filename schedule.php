@@ -334,7 +334,6 @@
             echo '<link rel="stylesheet" href="' . getStyle() . '" />';
             echo '<script src="js/style_minified.js"></script>';
             echo '<script src="js/script.js"></script>';
-			echo '<script src="js/control.js"></script>';
          echo '</head>';
          echo '<body onload="schedule_rows()">';
             echo '<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">';
