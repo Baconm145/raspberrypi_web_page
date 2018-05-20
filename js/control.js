@@ -5,6 +5,10 @@ function sendControlRequest( pkg ) {
     xhr.send();
 }
 
+function setspeed( speed ) {
+	alert( "kek" );
+}
+
 document.onkeydown = function( event ) {	
 	//lfs = left side forward start
 	//rfs = right side forward start
