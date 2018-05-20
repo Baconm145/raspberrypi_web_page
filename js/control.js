@@ -5,7 +5,7 @@ function sendControlRequest( pkg ) {
     xhr.send();
 }
 
-function setspeed() {
+function system_setspeed() {
 	alert('Add it!');
 }
 
