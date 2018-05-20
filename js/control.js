@@ -1,3 +1,5 @@
+var speed = document.getElementById("speedstr").value;
+
 function sendControlRequest( pkg ) {
 	var xhr = new XMLHttpRequest();
     var params = 'name=' + encodeURIComponent( pkg );
@@ -5,8 +7,12 @@ function sendControlRequest( pkg ) {
     xhr.send();
 }
 
-document.onkeydown = function( event ) {
-	console.log( event.key );
+function sys_setspeed() {
+	speed = document.getElementById("speedstr").value
+	console.log( speed );
+}
+
+document.onkeydown = function( event ) {	
 	//lfs = left side forward start
 	//rfs = right side forward start
 	//lbs = left side backward start
@@ -27,7 +33,7 @@ document.onkeydown = function( event ) {
 			sendControlRequest( "lfs" );
 		}
 		if ( event.key == "z" ) {
-			sendControlRequest( "rbs" );
+			sendControlRequest( "rbs" );e
 		}
 		if ( event.key == "c" ) {
 			sendControlRequest( "lbs" );
@@ -36,7 +42,6 @@ document.onkeydown = function( event ) {
 }
 
 document.onkeyup = function( event ) {
-	console.log( event );
 	//lfe = left side forward end
 	//rfe = right side forward end
 	//lbe = left side backward end
