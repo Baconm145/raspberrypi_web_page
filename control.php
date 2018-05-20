@@ -1,6 +1,5 @@
 <?php	
-	$speed = $_REQUEST["speed"];
-	file_put_contents( './speed.txt', $speed );
+	$speed = 0.5;
 	$q = $_REQUEST["name"];
 	if ( $q == rfs ) {
 		system( 'echo "23=' . $speed . '" > /dev/pi-blaster' );
