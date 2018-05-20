@@ -149,8 +149,8 @@ function sys_settime() {
 }
 
 function sys_setspeed() {
-	var speed = document.getElementById("speedstr").value;
-	console.log( speed );
+	//var speed = document.getElementById("speedstr").value;
+	console.log( 10 );
 }
 
 //
