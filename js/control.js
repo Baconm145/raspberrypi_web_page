@@ -18,7 +18,7 @@ document.onkeydown = function( event ) {
 		if ( event.key == "w" ) {
 			sendControlRequest( "lfs" );
 			sendControlRequest( "rfs" );
-			setspeed( 30 )
+			setspeed( 30 );
 		}
 		if ( event.key == "s" ) {
 			sendControlRequest( "lbs" );
