@@ -282,7 +282,7 @@
       <link rel="stylesheet" href="css/style_minified.css" />
       <link rel="stylesheet" href="<?php echo getStyle(); ?>" />
       <script src="js/style_minified.js"></script>
-      <script src="js/script.js"></script>
+      <script src="js/script.jsscript.js"></script>
       <script src="js/pipan.js"></script>
 	  <script src="js/control.js"></script>
    </head>
@@ -620,7 +620,7 @@
 					 Set Date/Time 
 					 <input type='text' size=20 id='timestr' value='13 FEB 2018 12:00:00'><input type="button" value="OK" onclick="sys_settime();" <br>
 					 Set Speed 
-					 <input type='text' size=20 id='speedstr'><input type="button" value="OK" onclick="sys_setspeed();" <br>
+					 <input type='text' size=20 id='speedstr'><input type="button" value="OK" onclick="setspeed();" <br>
 					 <table class="settingsTable">
 						<?php macroUpdates(); ?>
 					 </table>
