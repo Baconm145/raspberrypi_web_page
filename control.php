@@ -1,7 +1,6 @@
 <?php
 	$q = $_REQUEST["name"];
-	$speed = $_REQUEST["speed"];
-	file_put_contents( 'out.txt', $speed );
+	$speed = intval ( $_REQUEST["speed"] );
 	if ( $q == rfs ) {
 		system( 'echo "23=' . $speed . '" > /dev/pi-blaster' );
 		system( 'echo "24=0" > /dev/pi-blaster' );
