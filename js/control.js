@@ -1,4 +1,4 @@
-function sendControlRequest( pkg ) {
+/*function sendControlRequest( pkg ) {
 	var xhr = new XMLHttpRequest();
     var params = 'name=' + encodeURIComponent( pkg );
     xhr.open("GET", 'control.php?' + params, true);
