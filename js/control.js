@@ -1,5 +1,3 @@
-var speed = document.getElementById("speedstr").value;
-
 function sendControlRequest( pkg ) {
 	var xhr = new XMLHttpRequest();
     var params = 'name=' + encodeURIComponent( pkg );
@@ -8,8 +6,7 @@ function sendControlRequest( pkg ) {
 }
 
 function sys_setspeed() {
-	//speed = document.getElementById("speedstr").value;
-	console.log( speed );
+	alert('Add it!');
 }
 
 document.onkeydown = function( event ) {	
