@@ -618,7 +618,8 @@
                         &nbsp;<button type="submit" name="OK" value="OK" >OK</button>
                      </form>
 					 Set Date/Time <input type='text' size=20 id='timestr' value='13 FEB 2018 12:00:00'><input type="button" value="OK" onclick="sys_settime();"<BR>
-					 Set Speed <input type='text' size=20 id='speedstr' value='100'><input type="button" value="OK" onclick="setspeed( document.getElementById('speedstr').value );"<BR>
+					 Set Speed 
+					 <input type='text' size=20 id='speedstr' value='100'><input type="button" value="OK" onclick="setspeed( document.getElementById('speedstr').value );"<BR>
 					 <table class="settingsTable">
 						<?php macroUpdates(); ?>
 					 </table>
