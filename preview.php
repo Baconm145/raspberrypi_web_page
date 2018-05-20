@@ -367,7 +367,6 @@
       <script src="js/style_minified.js"></script>
       <script src="js/script.js"></script>
       <script src="js/preview.js"></script>
-	  <script src="js/control.js"></script>
       <script>
          var thumbnails = <?php echo json_encode($thumbnails) ?>;
          var linksBase = 'preview.php?preview=';
