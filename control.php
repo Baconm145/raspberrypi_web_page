@@ -1,6 +1,5 @@
 <?php
-	session_start();
-	$speed = $_SESSION['speed'];
+	$speed = $_POST['speed'];
 	$q = $_REQUEST["name"];
 	if ( $q == rfs ) {
 		system( 'echo "23=' . $speed . '" > /dev/pi-blaster' );
