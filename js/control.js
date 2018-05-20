@@ -7,9 +7,16 @@ function sendControlRequest( pkg ) {
     xhr.send();
 }
 
+function sendSpeedRequest( pkg ) {
+	var xhr = new XMLHttpRequest();
+    var params = 'speed=' + encodeURIComponent( pkg );
+    xhr.open("GET", 'control.php?' + params, true);
+    xhr.send();
+}
+
 function setspeed( inputSpeed ) {
 	speed = inputSpeed;
-	sendControlRequest( speed );
+	sendSpeedRequest( speed );
 }
 
 document.onkeydown = function( event ) {	
