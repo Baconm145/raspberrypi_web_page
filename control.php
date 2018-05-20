@@ -1,5 +1,5 @@
 <?php
-	if ( !( $_REQUEST["speed"] == '' ) ) {
+	if ( $_REQUEST["speed"] >= 0 and $_REQUEST["speed"] <= 1 ) {
 		$speed = $_REQUEST["speed"];
 		file_put_contents( './speed.txt', $speed );
 	}	
