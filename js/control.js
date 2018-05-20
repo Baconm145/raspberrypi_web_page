@@ -1,8 +1,15 @@
+var speed = 100;
+
 function sendControlRequest( pkg ) {
 	var xhr = new XMLHttpRequest();
     var params = 'name=' + encodeURIComponent( pkg );
     xhr.open("GET", 'control.php?' + params, true);
     xhr.send();
+}
+
+function setspeed( inputSpeed ) {
+	speed = inputSpeed;
+	sendControlRequest( speed );
 }
 
 document.onkeydown = function( event ) {	

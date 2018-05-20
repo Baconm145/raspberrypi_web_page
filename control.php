@@ -1,51 +1,46 @@
 <?php
-	system( 'gpio mode 1 out' );
-	system( 'gpio mode 4 out' );
-	system( 'gpio mode 5 out' );
-	system( 'gpio mode 7 out' );
-	system( 'gpio mode 0 out' );
-	system( 'gpio mode 3 out' );
-	system( 'gpio write 7 1' );
-	system( 'gpio write 1 1' );	
 	$q = $_REQUEST["name"];
+	if ( $q >= 0 and $q <= 1 ) {
+		$speed = $q;
+	}
 	if ( $q == rfs ) {
-		system( 'gpio write 4 1' );
-		system( 'gpio write 5 0' );
+		system( 'echo "4='$speed'" > /dev/pi-blaster' );
+		system( 'echo "5=0" > /dev/pi-blaster' );
 	}
 	if ( $q == lfs ) {
-		system( 'gpio write 0 0' );
-		system( 'gpio write 3 1' );
+		system( 'echo "0=0" > /dev/pi-blaster' );
+		system( 'echo "3='$speed'" > /dev/pi-blaster' );
 	}
 	if ( $q == rbs ) {
-		system( 'gpio write 4 0' );
-		system( 'gpio write 5 1' );
+		system( 'echo "4=0" > /dev/pi-blaster' );
+		system( 'echo "5='$speed'" > /dev/pi-blaster' );
 	}
 	if ( $q == lbs ) {
-		system( 'gpio write 0 1' );
-		system( 'gpio write 3 0' );
+		system( 'echo "0='$speed'" > /dev/pi-blaster' );
+		system( 'echo "3=0" > /dev/pi-blaster' );
 	}
 	if ( $q == lfe ) {
-		system( 'gpio write 4 0' );
-		system( 'gpio write 5 0' );
-		system( 'gpio write 0 0' );
-		system( 'gpio write 3 0' );
+		system( 'echo "4=0" > /dev/pi-blaster' );
+		system( 'echo "5=0" > /dev/pi-blaster' );
+		system( 'echo "0=0" > /dev/pi-blaster' );
+		system( 'echo "3=0" > /dev/pi-blaster' );
 	}
 	if ( $q == rfe ) {
-		system( 'gpio write 4 0' );
-		system( 'gpio write 5 0' );
-		system( 'gpio write 0 0' );
-		system( 'gpio write 3 0' );
+		system( 'echo "4=0" > /dev/pi-blaster' );
+		system( 'echo "5=0" > /dev/pi-blaster' );
+		system( 'echo "0=0" > /dev/pi-blaster' );
+		system( 'echo "3=0" > /dev/pi-blaster' );
 	}
 	if ( $q == lbe ) {
-		system( 'gpio write 4 0' );
-		system( 'gpio write 5 0' );
-		system( 'gpio write 0 0' );
-		system( 'gpio write 3 0' );
+		system( 'echo "4=0" > /dev/pi-blaster' );
+		system( 'echo "5=0" > /dev/pi-blaster' );
+		system( 'echo "0=0" > /dev/pi-blaster' );
+		system( 'echo "3=0" > /dev/pi-blaster' );
 	}
 	if ( $q == rbe ) {
-		system( 'gpio write 4 0' );
-		system( 'gpio write 5 0' );
-		system( 'gpio write 0 0' );
-		system( 'gpio write 3 0' );
+		system( 'echo "4=0" > /dev/pi-blaster' );
+		system( 'echo "5=0" > /dev/pi-blaster' );
+		system( 'echo "0=0" > /dev/pi-blaster' );
+		system( 'echo "3=0" > /dev/pi-blaster' );
 	}
 ?>
