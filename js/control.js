@@ -1,5 +1,3 @@
-var speed = 1;
-
 function sendControlRequest( pkg ) {
 	var xhr = new XMLHttpRequest();
     var params = 'name=' + encodeURIComponent( pkg );
