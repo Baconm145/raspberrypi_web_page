@@ -43,7 +43,7 @@ document.onkeydown = function( event ) {
 	if ( event.key == "r" ) {
 			sendControlRequest( "si" );
 	}
-	if ( event.key == "r" ) {
+	if ( event.key == "f" ) {
 			sendControlRequest( "sr" );
 	}
 }
