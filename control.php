@@ -1,6 +1,12 @@
 <?php	
 	$speed = 0.5;
 	$q = $_REQUEST["name"];
+	if ( $q == si ) {
+		$speed = $speed + 0.02;
+	}
+	if ( $q == sr ) {
+		$speed = $speed - 0.02;
+	}
 	if ( $q == rfs ) {
 		system( 'echo "23=' . $speed . '" > /dev/pi-blaster' );
 		system( 'echo "24=0" > /dev/pi-blaster' );

@@ -15,6 +15,8 @@ document.onkeydown = function( event ) {
 	//rfs = right side forward start
 	//lbs = left side backward start
 	//rbs = right side backward start
+	//si = speed increase
+	//sr = speed reduce
 	if ( !event.repeat ) {
 		if ( event.key == "w" ) {
 			sendControlRequest( "lfs" );
@@ -37,6 +39,12 @@ document.onkeydown = function( event ) {
 		if ( event.key == "c" ) {
 			sendControlRequest( "lbs" );
 		}
+	}
+	if ( event.key == "r" ) {
+			sendControlRequest( "si" );
+	}
+	if ( event.key == "r" ) {
+			sendControlRequest( "sr" );
 	}
 }
 
