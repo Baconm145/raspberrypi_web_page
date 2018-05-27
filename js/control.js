@@ -7,6 +7,10 @@ function sendControlRequest( dir, speed ) {
 
 var speed = 1.0;
 
+function setspeed() {
+	speed = document.getElementById('speedstr').value;
+}
+
 document.onkeydown = function( event ) {	
 	//lfs = left side forward start
 	//rfs = right side forward start
@@ -36,10 +40,14 @@ document.onkeydown = function( event ) {
 		}
 	}
 	if ( event.key == "r" ) {
-		speed = speed + 0.02;
+		if ( speed < 1 ) {
+			speed = speed + 0.1;
+		}
 	}
 	if ( event.key == "f" ) {
-		speed = speed - 0.02;
+		if ( speed > 0 ) {
+			speed = speed - 0.1;
+		}
 	}
 }
 
