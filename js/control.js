@@ -5,6 +5,13 @@ function sendControlRequest( dir, speed ) {
     xhr.send();
 }
 
+function sendSelfDrivingRequest( action ) {
+	var xhr = new XMLHttpRequest();
+	var params = 'action=' + encodeURIComponent( action ) ;
+    xhr.open("GET", 'selfdriving.php?' + params, true);
+    xhr.send();
+}
+
 var speed = 1.0;
 
 function setspeed() {

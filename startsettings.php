@@ -1,4 +1,5 @@
 <?php
+	system( 'gpio' );
 	system( 'gpio mode 1 out' );
 	system( 'gpio mode 4 out' );
 	system( 'gpio mode 5 out' );
