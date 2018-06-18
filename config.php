@@ -3,10 +3,10 @@
 	define('LBASE_DIR',dirname(__FILE__));
 	//Global defines and utility functions
 	// version string 
-	define('APP_VERSION', '');
+	define('APP_VERSION', '1.0');
 
 	// name of this application
-	define('APP_NAME', '');
+	define('APP_NAME', 'ConRider');
 
 	// the host running the application
 	define('HOST_NAME', php_uname('n'));
