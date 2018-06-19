@@ -308,7 +308,7 @@
    }
    
    .bottomliquid {
-	   float: right;
+	   float: left;
 	   width: 70%
    }
 	
