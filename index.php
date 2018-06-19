@@ -333,10 +333,10 @@
       <div id="secondary-buttons" class="container-fluid text-center">
          <?php pan_controls(); ?>
          <?php user_buttons(); ?>
-         <a href="preview.php" class="btn btn-default" <?php getdisplayStyle('actions', $userLevel); ?>>Download Videos and Images</a>
+         <a href="preview.php" class="btn btn-default" <?php getdisplayStyle('actions', $userLevel); ?>>Скачать видео и фото</a>
          &nbsp;&nbsp;
-         <?php  if($config['motion_external'] == '1'): ?><a href="motion.php" class="btn btn-default" <?php getdisplayStyle('settings', $userLevel); ?>>Edit motion settings</a>&nbsp;&nbsp;<?php endif; ?>
-         <a href="schedule.php" class="btn btn-default" <?php getdisplayStyle('settings', $userLevel); ?>>Edit schedule settings</a>
+         <?php  if($config['motion_external'] == '1'): ?><a href="motion.php" class="btn btn-default" <?php getdisplayStyle('settings', $userLevel); ?>>Настройки сервопривода</a>&nbsp;&nbsp;<?php endif; ?>
+         <a href="schedule.php" class="btn btn-default" <?php getdisplayStyle('settings', $userLevel); ?>>Изменить параметры</a>
       </div>
     
       <div class="container-fluid text-center">
@@ -344,17 +344,17 @@
             <div class="panel panel-default">
                <div class="panel-heading">
                   <h2 class="panel-title">
-                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Camera Settings</a>
+                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Настройки видео</a>
                   </h2>
                </div>
                <div id="collapseOne" class="panel-collapse collapse">
                   <div class="panel-body">
                      <table class="settingsTable">
                         <tr>
-                           <td>Resolutions:</td>
-                           <td>Load Preset: <select onchange="set_preset(this.value)">
+                           <td>Разрешения:</td>
+                           <td>Пресет: <select onchange="set_preset(this.value)">
 								<?php if(!file_exists('uPresets.html')) : ?>
-                                 <option value="1920 1080 25 25 2592 1944">Select option...</option>
+                                 <option value="1920 1080 25 25 2592 1944">Выбрать пресет...</option>
                                  <option value="1920 1080 25 25 2592 1944">Full HD 1080p 16:9</option>
                                  <option value="1280 0720 25 25 2592 1944">HD-ready 720p 16:9</option>
                                  <option value="1296 972 25 25 2592 1944">Max View 972p 4:3</option>
@@ -362,7 +362,7 @@
                                  <option value="1920 1080 01 30 2592 1944">Full HD Timelapse (x30) 1080p 16:9</option>
 								 <?php else : include 'uPresets.html'; endif; ?>
                               </select><br>
-                              Custom Values:<br>
+                              Точная настройка:<br>
                               Video res: <?php makeInput('video_width', 4); ?>x<?php makeInput('video_height', 4); ?>px<br>
                               Video fps: <?php makeInput('video_fps', 2); ?>recording, <?php makeInput('MP4Box_fps', 2); ?>boxing<br>
                               Image res: <?php makeInput('image_width', 4); ?>x<?php makeInput('image_height', 4); ?>px<br>
@@ -624,16 +624,16 @@
             <div class="panel panel-default">
                <div class="panel-heading">
                   <h2 class="panel-title">
-                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">System</a>
+                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Система</a>
                   </h2>
                </div>
                <div id="collapseThree" class="panel-collapse collapse">
                   <div class="panel-body">
                      <input id="toggle_stream" type="button" class="btn btn-primary" value="<?php echo $streamButton; ?>" onclick="set_stream_mode(this.value);">
                      <input id="allow_simple" type="button" class="btn btn-primary" value="<?php echo $allowSimple; ?>" onclick="set_display(this.value);">
-                     <input id="shutdown_button" type="button" value="shutdown system" onclick="sys_shutdown();" class="btn btn-danger">
-                     <input id="reboot_button" type="button" value="reboot system" onclick="sys_reboot();" class="btn btn-danger">
-                     <input id="reset_button" type="button" value="reset settings" onclick="if(confirm('Are you sure?')) {send_cmd('rs 1');setTimeout(function(){location.reload(true);}, 1000);}" class="btn btn-danger">
+                     <input id="shutdown_button" type="button" value="выключить систему" onclick="sys_shutdown();" class="btn btn-danger">
+                     <input id="reboot_button" type="button" value="перезрагрузить систему" onclick="sys_reboot();" class="btn btn-danger">
+                     <input id="reset_button" type="button" value="сброс настроек" onclick="if(confirm('Are you sure?')) {send_cmd('rs 1');setTimeout(function(){location.reload(true);}, 1000);}" class="btn btn-danger">
                      <form action='<?php echo ROOT_PHP; ?>' method='POST'>
                         <br>Style
                         <select name='extrastyle' id='extrastyle'>
@@ -641,8 +641,8 @@
                         </select>
                         &nbsp;<button type="submit" name="OK" value="OK" >OK</button>
                      </form>
-					 Set Date/Time <input type='text' size=20 id='timestr' value='13 FEB 2018 12:00:00'><input type="button" value="OK" onclick="sys_settime();"<BR>
-					 Set Speed 
+					 Установить дату/время <input type='text' size=20 id='timestr' value='13 FEB 2018 12:00:00'><input type="button" value="OK" onclick="sys_settime();"<BR>
+					 Установить скорость 
 					 <input type='text' size=20 id='speedstr' value='1'><input type="button" value="OK" onclick="setspeed();"<BR>
 					 <table class="settingsTable">
 						<?php macroUpdates(); ?>
