@@ -309,7 +309,7 @@
    
    .bottomliquid {
 	   float: right;
-	   width: 100%
+	   width: 80%
    }
 	
 	.rightstr {
@@ -682,7 +682,7 @@
 		<div class="container">
 			<p>By
 				<a href="developers.php">Vladimir Busyrev</a>, <a href="developers.php">Kulaev Ivan</a>
-				<a class="bottomliquid" href="developers.php">Управление</a>
+				<a class="bottomliquid" href="developers.php">Инструкция по управлению</a>
 			</p>
 		</div>
 	</div>
