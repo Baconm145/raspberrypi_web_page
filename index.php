@@ -298,7 +298,10 @@
 		width: 100%;
 		font-family: Glyphicons Halflings;
 	}
-	div.foot div{
+	div.foot left {
+		text-align: left;
+	}
+	div.foot right {
 		text-align: right;
 	}
 	</style>
@@ -653,9 +656,11 @@
             </div>
          </div>
       </div>
-	<div class="foot">
-		&copy; Baconm145
-		<div href="http://www.yandex.ru">О нас</div>
+	<div class="foot left">
+		&copy; Vladimir Busyrev, Kulaev Ivan
+	</div>
+	<div class="foot right">
+		&copy; О нас
 	</div>
       <?php if ($debugString != "") echo "$debugString<br>"; ?>
    </body>
