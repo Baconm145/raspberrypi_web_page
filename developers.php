@@ -75,7 +75,7 @@
 		}
 	</style>
     <meta name="viewport" content="width=550, initial-scale=1">
-    <title><span class="glyphicon glyphicon-chevron-left"></span>Back - <?php echo CAM_STRING; ?></title>
+    <title><?php echo CAM_STRING; ?></title>
     <link rel="stylesheet" href="css/style_minified.css" />
    </head>
    <body>
@@ -83,7 +83,7 @@
         <div class="container">
 			<p class="rightstr">+7 (999) 771-33-70 Baconm145@gmail.com</p>
             <div class="navbar-header">
-               <a class="navbar-brand"><?php echo CAM_STRING; ?></a>
+               <a class="navbar-brand"><span class="glyphicon glyphicon-chevron-left"></span>Back - <?php echo CAM_STRING; ?></a>
             </div>
         </div>
     </div>
