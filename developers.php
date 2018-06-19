@@ -1,3 +1,6 @@
+<?php
+   require_once(BASE_DIR.'/config.php');
+?>
 <html>
    <head>
 	<style type="text/css">
