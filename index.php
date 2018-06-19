@@ -677,6 +677,7 @@
 		<div class="container">
 			<p>By
 				<a href="developers.php">Vladimir Busyrev</a>, <a href="developers.php">Kulaev Ivan</p>
+				<a href="developers.php">Управление</a>
 			</p>
 		</div>
 	</div>
