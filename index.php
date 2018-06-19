@@ -676,9 +676,9 @@
 		<div class="container">
 			<p>By
 			<a>Vladimir Busyrev</a>, <a>Kulaev Ivan</p>
+			</p>
 			<a class="rightstrdown">Разработчики</a>
-			<a class="rightstrdown">Устройство</a>
-			</p>			
+			<a class="rightstrdown">Устройство</a>						
 		</div>
 	</div>
       <?php if ($debugString != "") echo "$debugString<br>"; ?>
