@@ -278,6 +278,16 @@
 
 <html>
    <head>
+	<style type="text/css">
+		#footer {
+		position: fixed;
+		left: 0; bottom: 0;
+		padding: 10px;
+		background: #080808;
+		color: #fff;
+		width: 100%;
+		}
+	</style>
       <meta name="viewport" content="width=550, initial-scale=1">
       <title><?php echo CAM_STRING; ?></title>
       <link rel="stylesheet" href="css/style_minified.css" />
@@ -629,6 +639,9 @@
             </div>
          </div>
       </div>
+	<div id="footer">
+		&copy; Baconm145
+	</div>
       <?php if ($debugString != "") echo "$debugString<br>"; ?>
    </body>
 </html>
