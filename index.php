@@ -306,6 +306,10 @@
    .rightstrbot {
     text-align: right; /* Выравнивание по правому краю */ 
    }
+   
+   .bottomliquid {
+	   float: left;
+   }
 	
 	.rightstr {
 	margin-top: 9px;
@@ -677,7 +681,7 @@
 		<div class="container">
 			<p>By
 				<a href="developers.php">Vladimir Busyrev</a>, <a href="developers.php">Kulaev Ivan</p>
-				<a href="developers.php">Управление</a>
+				<a class="bottomliquid" href="developers.php">Управление</a>
 			</p>
 		</div>
 	</div>
