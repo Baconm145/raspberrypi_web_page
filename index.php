@@ -287,6 +287,19 @@
 		color: #fff;
 		width: 100%;
 		}
+		
+	@font-face {
+		font-family:'Glyphicons Halflings';
+		src:url('../fonts/glyphicons-halflings-regular.eot');
+		src:url('../fonts/glyphicons-halflings-regular.eot?#iefix') 
+		format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff')
+		format('woff'),	url('../fonts/glyphicons-halflings-regular.ttf')
+		format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular')
+		format('svg')
+	}
+	div {
+		font-family: Glyphicons Halflings;
+	}
 	</style>
       <meta name="viewport" content="width=550, initial-scale=1">
       <title><?php echo CAM_STRING; ?></title>
