@@ -310,7 +310,7 @@
 	margin-top: 5px;
     float: right;
 	color: #777;
-	font-size: 11pt;
+	font-size: 9pt;
     width: 0%
 	</style>
       <meta name="viewport" content="width=550, initial-scale=1">
@@ -325,7 +325,7 @@
    <body onload="setTimeout('init(<?php echo "$mjpegmode, $video_fps, $divider" ?>);', 100);">
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" <?php getdisplayStyle('navbar', $userLevel); ?>>
          <div class="container">
-			<p class="rightstr">Наши контакты</p>
+			<p class="rightstr">Контакты +7 (999) 771-33-70 Baconm145@gmail.com</p>
             <div class="navbar-header">
                <a class="navbar-brand"><?php echo CAM_STRING; ?></a>
             </div>
