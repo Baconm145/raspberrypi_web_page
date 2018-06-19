@@ -317,7 +317,7 @@
     float: right;
 	color: #777;
 	font-size: 9pt;
-    width: 10%
+    width: 30%
 	}
 	</style>
       <meta name="viewport" content="width=550, initial-scale=1">
