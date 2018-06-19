@@ -123,6 +123,29 @@
 ?>
 <html>
    <head>
+	<style type="text/css">
+		#footer {
+		position: fixed;
+		left: 0; bottom: 0;
+		padding: 10px;
+		background: #151515;
+		color: #6E6E6E;
+		width: 100%;
+		}
+		
+	@font-face {
+		font-family:'Glyphicons Halflings';
+		src:url('../fonts/glyphicons-halflings-regular.eot');
+		src:url('../fonts/glyphicons-halflings-regular.eot?#iefix') 
+		format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff')
+		format('woff'),	url('../fonts/glyphicons-halflings-regular.ttf')
+		format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular')
+		format('svg')
+	}
+	div.foot {
+		font-family: Glyphicons Halflings;
+	}
+	</style>
       <meta name="viewport" content="width=550, initial-scale=1">
       <title>RPi Cam Download</title>
       <link rel="stylesheet" href="css/style_minified.css" />
@@ -161,5 +184,8 @@
       ?>
       </form>
       </div>
+	<div class="foot" id="footer">
+		&copy; Baconm145
+	</div>
    </body>
 </html>

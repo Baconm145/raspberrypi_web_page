@@ -837,7 +837,7 @@ function cmdHelp() {
 		position: fixed;
 		left: 0; bottom: 0;
 		padding: 10px;
-		background: #2E2E2E;
+		background: #151515;
 		color: #6E6E6E;
 		width: 100%;
 		}
