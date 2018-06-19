@@ -667,9 +667,9 @@
       </div>
 	<div class="foot">
 		<div class="container">
-			<left>&copy; Vladimir Busyrev, Kulaev Ivan</left>
-			<a href="http://www.google.ru">Разработчики</a>
-			<a href="http://www.google.ru">Устройство</a>
+			<left>brought you by Vladimir Busyrev, Kulaev Ivan</left>
+			<p class="rightstr" href="http://www.google.ru">>Разработчики</p>
+			<p class="rightstr" href="http://www.google.ru">>Устройство</p>
 		</div>
 	</div>
       <?php if ($debugString != "") echo "$debugString<br>"; ?>
