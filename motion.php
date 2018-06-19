@@ -124,14 +124,6 @@
 <html>
    <head>
 	<style type="text/css">
-		#footer {
-		position: fixed;
-		left: 0; bottom: 0;
-		padding: 10px;
-		background: #222;
-		color: #777;
-		width: 100%;
-		}
 		
 	@font-face {
 		font-family:'Glyphicons Halflings';
@@ -143,7 +135,35 @@
 		format('svg')
 	}
 	div.foot {
+		position: fixed;
+		left: 0; bottom: 0;
+		padding: 2px;
+		background: #222;
+		color: #777;
+		width: 100%;
 		font-family: Glyphicons Halflings;
+	}
+	
+	.leftstrbot, .rightstrbot {
+    float: left; 
+    width: 50%;
+   }
+   .rightstrbot {
+    text-align: right; /* Выравнивание по правому краю */ 
+   }
+	
+	.rightstr {
+	margin-top: 9px;
+    float: right;
+	color: #777;
+	font-size: 9pt;
+    width: 20%
+	}
+	.rightstrdown {;
+    float: right;
+	color: #777;
+	font-size: 9pt;
+    width: 10%
 	}
 	</style>
       <meta name="viewport" content="width=550, initial-scale=1">
@@ -156,8 +176,9 @@
    <body>
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
          <div class="container">
+			<p class="rightstr">+7 (999) 771-33-70 Baconm145@gmail.com</p>
             <div class="navbar-header">
-               <a class="navbar-brand" href="<?php echo ROOT_PHP; ?>"><span class="glyphicon glyphicon-chevron-left"></span>Back - <?php echo CAM_STRING; ?></a>
+               <a class="navbar-brand"><?php echo CAM_STRING; ?></a>
             </div>
          </div>
       </div>
@@ -184,8 +205,12 @@
       ?>
       </form>
       </div>
-	<div class="foot" id="footer">
-		&copy; Baconm145
+	<div class="foot">
+		<div class="container">
+			<p>By
+				<a href="vovan.php">Vladimir Busyrev</a>, <a href="kulay.php">Kulaev Ivan</p>
+			</p>
+		</div>
 	</div>
    </body>
 </html>

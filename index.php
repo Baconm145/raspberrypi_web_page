@@ -292,6 +292,7 @@
 	div.foot {
 		position: fixed;
 		left: 0; bottom: 0;
+		padding: 2px;
 		background: #222;
 		color: #777;
 		width: 100%;
