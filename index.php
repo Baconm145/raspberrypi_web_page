@@ -312,7 +312,7 @@
     float: right;
 	color: #777;
 	font-size: 9pt;
-    width: 25%
+    width: 20%
 	}
 	.rightstrdown {;
     float: right;
@@ -675,13 +675,8 @@
       </div>
 	<div class="foot">
 		<div class="container">
-			<p class="leftstrbot">
-				<p>By
-					<a>Vladimir Busyrev</a>, <a>Kulaev Ivan</p>
-				</p>	
-			</p>
-			<p class="rightstrbot">
-				<a>Устройство</a>, 
+			<p>By
+				<a>Vladimir Busyrev</a>, <a>Kulaev Ivan</p>
 			</p>
 		</div>
 	</div>
