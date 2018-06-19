@@ -301,9 +301,12 @@
 	
 	div.foot left {
 		float: left;
-		width: 91%;
+		width: 100%;
 	}
 	div.foot right {
+		text-align: right;
+	}
+	navbar-header right {
 		text-align: right;
 	}
 	</style>
@@ -321,7 +324,7 @@
          <div class="container">
             <div class="navbar-header">
                <a class="navbar-brand"><?php echo CAM_STRING; ?></a>
-			   <a align="right">Baconm145</a>
+			   <right>Baconm145</right>
             </div>
          </div>
       </div>
