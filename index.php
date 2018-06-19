@@ -307,7 +307,7 @@
 		text-align: right;
 	}
 	.rightstr {
-	margin-top: 5px;
+	margin-top: 7px;
     float: right;
 	color: #777;
 	font-size: 9pt;
@@ -325,7 +325,6 @@
    <body onload="setTimeout('init(<?php echo "$mjpegmode, $video_fps, $divider" ?>);', 100);">
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" <?php getdisplayStyle('navbar', $userLevel); ?>>
          <div class="container">
-			<p class="rightstr">Контакты</p>
 			<p class="rightstr">+7 (999) 771-33-70 Baconm145@gmail.com</p>
             <div class="navbar-header">
                <a class="navbar-brand"><?php echo CAM_STRING; ?></a>
