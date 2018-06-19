@@ -424,7 +424,7 @@
          <div class="container">
 			<p class="rightstr">+7 (999) 771-33-70 Baconm145@gmail.com</p>
             <div class="navbar-header">
-               <a class="navbar-brand"><?php echo CAM_STRING; ?></a>
+               <a class="navbar-brand" href="#"><?php echo CAM_STRING; ?></a>
             </div>
          </div>
       </div>
