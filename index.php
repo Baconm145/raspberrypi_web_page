@@ -292,7 +292,7 @@
 	div.foot {
 		position: fixed;
 		left: 0; bottom: 0;
-		padding: 7px;
+		padding: 5px;
 		background: #222;
 		color: #777;
 		width: 100%;
@@ -676,7 +676,7 @@
 	<div class="foot">
 		<div class="container">
 			<p>By
-				<a>Vladimir Busyrev</a>, <a>Kulaev Ivan</p>
+				<a href="vovan.php">Vladimir Busyrev</a>, <a href="kulay.php">Kulaev Ivan</p>
 			</p>
 		</div>
 	</div>
