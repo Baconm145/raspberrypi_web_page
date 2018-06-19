@@ -317,7 +317,7 @@
     float: right;
 	color: #777;
 	font-size: 9pt;
-    width: 0%
+    width: 10%
 	}
 	</style>
       <meta name="viewport" content="width=550, initial-scale=1">
@@ -675,7 +675,7 @@
 	<div class="foot">
 		<div class="container">
 			<p>By
-			<a class="navbar-brand" >Vladimir Busyrev</a>, <a class="navbar-brand">Kulaev Ivan</p>
+			<a>Vladimir Busyrev</a>, <a>Kulaev Ivan</p>
 			<a class="rightstrdown">Разработчики</a>
 			<a class="rightstrdown">Устройство</a>
 			</p>			
