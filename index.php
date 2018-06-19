@@ -321,7 +321,7 @@
          <div class="container">
             <div class="navbar-header">
                <a class="navbar-brand"><?php echo CAM_STRING; ?></a>
-			   <a class="navbar-brand" align="right">Baconm145</a>
+			   <a align="right">Baconm145</a>
             </div>
          </div>
       </div>
