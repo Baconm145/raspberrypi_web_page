@@ -97,11 +97,11 @@
 			Инструкция по управлению
 			<br>
 			<img src="forward.png" width="250" height="250">
-			<img src="backward.png" width="250" height="250">
-			<img src="left.png" width="250" height="250">
-			<img src="right.png" width="250" height="250">
-			<img src="leftBack.png" width="250" height="250">
-			<img src="rightBack.png" width="250" height="250">
+			<img src="Backward.png" width="250" height="250">
+			<img src="Left.png" width="250" height="250">
+			<img src="Right.png" width="250" height="250">
+			<img src="LeftBack.png" width="250" height="250">
+			<img src="RightBack.png" width="250" height="250">
 		</h1>
 	<div>
 	<div class="foot">
