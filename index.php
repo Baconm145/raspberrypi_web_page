@@ -676,10 +676,10 @@
 		<div class="container">
 			<p>By
 			<a>Vladimir Busyrev</a>, <a>Kulaev Ivan</p>
-			</p>
-			<a class="rightstrdown">Разработчики</a>
-			<a class="rightstrdown">Устройство</a>						
+			</p>					
 		</div>
+		<a class="rightstrdown">Разработчики</a>
+		<a class="rightstrdown">Устройство</a>	
 	</div>
       <?php if ($debugString != "") echo "$debugString<br>"; ?>
    </body>
