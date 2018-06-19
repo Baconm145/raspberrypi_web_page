@@ -309,6 +309,7 @@
    
    .bottomliquid {
 	   float: left;
+	   width: 50%
    }
 	
 	.rightstr {
