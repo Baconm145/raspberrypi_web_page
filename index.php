@@ -676,7 +676,7 @@
 	<div class="foot">
 		<div class="container">
 			<p>By
-				<p href="developers.php">Vladimir Busyrev</>, <p href="developers.php">Kulaev Ivan</p>
+				<a href="developers.php">Vladimir Busyrev</a>, <a href="developers.php">Kulaev Ivan</p>
 			</p>
 		</div>
 	</div>
