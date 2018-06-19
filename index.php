@@ -317,7 +317,7 @@
 	.rightstrdown {;
     float: right;
 	color: #777;
-	font-size: 5pt;
+	font-size: 9pt;
     width: 10%
 	}
 	</style>
@@ -681,9 +681,7 @@
 				</p>	
 			</p>
 			<p class="rightstrbot">
-				<p>By
-					<a>Vladimir Busyrev</a>, <a>Kulaev Ivan</p>
-				</p>	
+				<a>Устройство</a>, 
 			</p>
 		</div>
 	</div>
