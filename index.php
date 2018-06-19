@@ -321,6 +321,7 @@
          <div class="container">
             <div class="navbar-header">
                <a class="navbar-brand"><?php echo CAM_STRING; ?></a>
+			   <a class="navbar-brand">our contacts: Baconm145@gmail.com</a>
             </div>
          </div>
       </div>
