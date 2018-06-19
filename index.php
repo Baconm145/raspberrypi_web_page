@@ -283,8 +283,8 @@
 		position: fixed;
 		left: 0; bottom: 0;
 		padding: 10px;
-		background: #080808;
-		color: #fff;
+		background: #2E2E2E;
+		color: #6E6E6E;
 		width: 100%;
 		}
 		
