@@ -308,7 +308,7 @@
 	}
 	.rightstr {
     float: right; 
-    width: 50%
+    width: 100%
 	</style>
       <meta name="viewport" content="width=550, initial-scale=1">
       <title><?php echo CAM_STRING; ?></title>
