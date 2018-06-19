@@ -307,7 +307,7 @@
 		text-align: right;
 	}
 	.rightstr {
-	margin-top: 7px;
+	margin-top: 9px;
     float: right;
 	color: #777;
 	font-size: 9pt;
@@ -666,9 +666,11 @@
          </div>
       </div>
 	<div class="foot">
-		<left>&copy; Vladimir Busyrev, Kulaev Ivan</left>
-		<a href="http://www.google.ru">Разработчики</a>
-		<a href="http://www.google.ru">Устройство</a>
+		<div class="container">
+			<left>&copy; Vladimir Busyrev, Kulaev Ivan</left>
+			<a href="http://www.google.ru">Разработчики</a>
+			<a href="http://www.google.ru">Устройство</a>
+		</div>
 	</div>
       <?php if ($debugString != "") echo "$debugString<br>"; ?>
    </body>
