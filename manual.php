@@ -24,11 +24,6 @@
 			width: 100%;
 			font-family: Glyphicons Halflings;
 		}
-		
-		.bottomliquid {
-	   float: left;
-	   width: 70%
-   }
 				
 		.mainBox {
 		margin-right:auto;
@@ -78,6 +73,11 @@
 		float:left;
 		margin: 7px 7px 7px 0;
 		}
+		
+		.bottomliquid {
+	   float: left;
+	   width: 70%
+		}
 	</style>
     <meta name="viewport" content="width=550, initial-scale=1">
     <title><?php echo CAM_STRING; ?></title>
@@ -93,64 +93,16 @@
         </div>
     </div>
 	<div class="mainBox">
-		<p>
-			<img src="vovan_photo.jpg" width="253" height="337" class="imageBox">
-			<font size="5" face="Arial">
-				<p class="rightstrmid"> 
-					Бусырев Владимир Александрович <br>
-					18.06.1999 <br>
-					Москва <br>
-					+7 (999) 771-33-70 <br>
-					Baconm145@gmail.com <br>
-					Московский политех <br>
-					Vovan_bus <br>
-					#7967 Baconm145 <br>
-					Baconm145 <br>
-					vk.com/Baconm145 <br>
-				</p>
-				<strong>
-					ФИО: <br>
-					Дата Рождения: <br>
-					Город: <br>
-					Телефон: <br>
-					Email: <br>
-					ВУЗ: <br>
-					Skype: <br>
-					Discord: <br>
-					Steam: <br>
-					VKontakte: <br>
-					
-				</strong>				
-			</font>
-			<br><img src="kulay_photo.jpg" width="253" height="377" class="imageBox">
-			<font size="5" face="Arial">
-				<p class="rightstrmid"> 
-					Кулаев Иван Сергеевич <br>
-					06.04.1997 <br>
-					Москва <br>
-					+7 (919) 761-43-22 <br>
-					kivans@gmail.com <br>
-					Московский политех <br>
-					kivans <br>
-					#5032 kivans<br>
-					kivans <br>
-					vk.com/kulayka <br>
-				</p>
-				<strong>
-					ФИО: <br>
-					Дата Рождения: <br>
-					Город: <br>
-					Телефон: <br>
-					Email: <br>
-					ВУЗ: <br>
-					Skype: <br>
-					Discord: <br>
-					Steam: <br>
-					VKontakte: <br>
-					
-				</strong>				
-			</font>
-		</p>
+		<h1 align="center">
+			Инструкция по управлению
+			<br>
+			<img src="forward.png" width="250" height="250">
+			<img src="backward.png" width="250" height="250">
+			<img src="left.png" width="250" height="250">
+			<img src="right.png" width="250" height="250">
+			<img src="leftBack.png" width="250" height="250">
+			<img src="rightBack.png" width="250" height="250">
+		</h1>
 	<div>
 	<div class="foot">
 		<div class="container">

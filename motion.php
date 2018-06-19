@@ -144,6 +144,11 @@
 		font-family: Glyphicons Halflings;
 	}
 	
+	.bottomliquid {
+	   float: left;
+	   width: 70%
+   }
+	
 	.leftstrbot, .rightstrbot {
     float: left; 
     width: 50%;
@@ -208,7 +213,8 @@
 	<div class="foot">
 		<div class="container">
 			<p>By
-				<a href="vovan.php">Vladimir Busyrev</a>, <a href="kulay.php">Kulaev Ivan</p>
+				<a href="developers.php">Vladimir Busyrev</a>, <a href="developers.php">Kulaev Ivan</a>
+				<a class="bottomliquid" href="manual.php">Инструкция по управлению</a>
 			</p>
 		</div>
 	</div>

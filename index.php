@@ -682,7 +682,7 @@
 		<div class="container">
 			<p>By
 				<a href="developers.php">Vladimir Busyrev</a>, <a href="developers.php">Kulaev Ivan</a>
-				<a class="bottomliquid" href="developers.php">Инструкция по управлению</a>
+				<a class="bottomliquid" href="manual.php">Инструкция по управлению</a>
 			</p>
 		</div>
 	</div>
