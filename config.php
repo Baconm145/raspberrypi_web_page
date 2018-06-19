@@ -3,7 +3,7 @@
 	define('LBASE_DIR',dirname(__FILE__));
 	//Global defines and utility functions
 	// version string 
-	define('APP_VERSION', '1.0');
+	define('APP_VERSION', 'v 1.0');
 
 	// name of this application
 	define('APP_NAME', 'ConRider');
@@ -18,7 +18,7 @@
 	define('CAM_NAME', 'mycam');
 
 	// unique camera string build from application name, camera name, host name
-	define('CAM_STRING', '');
+	define('CAM_STRING', APP_NAME . " " . APP_VERSION . ": " . CAM_NAME . '@' . HOST_NAME);
 
 	// file where default settings changes are stored
 	define('CONFIG_FILE1', 'raspimjpeg');
