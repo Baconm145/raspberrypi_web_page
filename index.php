@@ -298,6 +298,15 @@
 		width: 100%;
 		font-family: Glyphicons Halflings;
 	}
+	
+	.leftstrbot, .rightstrbot {
+    float: left; 
+    width: 50%;
+   }
+   .rightstrbot {
+    text-align: right; /* Выравнивание по правому краю */ 
+   }
+	
 	.rightstr {
 	margin-top: 9px;
     float: right;
@@ -308,7 +317,7 @@
 	.rightstrdown {;
     float: right;
 	color: #777;
-	font-size: 9pt;
+	font-size: 5pt;
     width: 10%
 	}
 	</style>
@@ -666,9 +675,16 @@
       </div>
 	<div class="foot">
 		<div class="container">
-			<p>By
-			<a>Vladimir Busyrev</a>, <a>Kulaev Ivan</p>
-			</p>					
+			<p class="leftstrbot">
+				<p>By
+					<a>Vladimir Busyrev</a>, <a>Kulaev Ivan</p>
+				</p>	
+			</p>
+			<p class="rightstrbot">
+				<p>By
+					<a>Vladimir Busyrev</a>, <a>Kulaev Ivan</p>
+				</p>	
+			</p>
 		</div>
 	</div>
       <?php if ($debugString != "") echo "$debugString<br>"; ?>
