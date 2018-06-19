@@ -312,6 +312,13 @@
 	color: #777;
 	font-size: 9pt;
     width: 20%
+	}
+	.rightstrdown {;
+    float: right;
+	color: #777;
+	font-size: 9pt;
+    width: 20%
+	}
 	</style>
       <meta name="viewport" content="width=550, initial-scale=1">
       <title><?php echo CAM_STRING; ?></title>
