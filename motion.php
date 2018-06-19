@@ -128,8 +128,8 @@
 		position: fixed;
 		left: 0; bottom: 0;
 		padding: 10px;
-		background: #151515;
-		color: #6E6E6E;
+		background: #222;
+		color: #777;
 		width: 100%;
 		}
 		
