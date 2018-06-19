@@ -75,7 +75,7 @@
 		}
 	</style>
     <meta name="viewport" content="width=550, initial-scale=1">
-    <title><?php echo CAM_STRING; ?></title>
+    <title><span class="glyphicon glyphicon-chevron-left"></span>Back - <?php echo CAM_STRING; ?></title>
     <link rel="stylesheet" href="css/style_minified.css" />
    </head>
    <body>
