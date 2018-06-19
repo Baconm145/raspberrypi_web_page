@@ -307,7 +307,9 @@
 		text-align: right;
 	}
 	.rightstr {
-    float: right; 
+	margin-top: 10px;
+    float: right;
+	font-size: 11pt;
     width: 0%
 	</style>
       <meta name="viewport" content="width=550, initial-scale=1">
