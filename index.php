@@ -297,7 +297,7 @@
 		format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular')
 		format('svg')
 	}
-	div {
+	div.foot {
 		font-family: Glyphicons Halflings;
 	}
 	</style>
@@ -652,7 +652,7 @@
             </div>
          </div>
       </div>
-	<div id="footer">
+	<div class="foot" id="footer">
 		&copy; Baconm145
 	</div>
       <?php if ($debugString != "") echo "$debugString<br>"; ?>
