@@ -301,7 +301,7 @@
 	
 	div.foot left {
 		float: left;
-		width: 87%;
+		width: 89%;
 	}
 	div.foot right {
 		text-align: right;
