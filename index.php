@@ -298,8 +298,10 @@
 		width: 100%;
 		font-family: Glyphicons Halflings;
 	}
+	
 	div.foot left {
-		text-align: left;
+		float: left;
+		width: 50%;
 	}
 	div.foot right {
 		text-align: right;
@@ -656,11 +658,9 @@
             </div>
          </div>
       </div>
-	<div class="foot left">
-		&copy; Vladimir Busyrev, Kulaev Ivan
-	</div>
-	<div class="foot right">
-		&copy; О нас
+	<div class="foot">
+		<left> &copy; Vladimir Busyrev, Kulaev Ivan </left>
+		<right>О нас</right>
 	</div>
       <?php if ($debugString != "") echo "$debugString<br>"; ?>
    </body>
