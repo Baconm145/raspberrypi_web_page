@@ -317,7 +317,7 @@
     float: right;
 	color: #777;
 	font-size: 9pt;
-    width: 30%
+    width: 0%
 	}
 	</style>
       <meta name="viewport" content="width=550, initial-scale=1">
@@ -676,9 +676,9 @@
 		<div class="container">
 			<p>By
 			<a>Vladimir Busyrev</a>, <a>Kulaev Ivan</p>
-			</p>			
 			<a class="rightstrdown">Разработчики</a>
 			<a class="rightstrdown">Устройство</a>
+			</p>			
 		</div>
 	</div>
       <?php if ($debugString != "") echo "$debugString<br>"; ?>
