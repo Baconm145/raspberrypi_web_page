@@ -283,7 +283,7 @@
 		position: fixed;
 		left: 0; bottom: 0;
 		padding: 10px;
-		background: #2E2E2E;
+		background: #1C1C1C;
 		color: #6E6E6E;
 		width: 100%;
 		}
