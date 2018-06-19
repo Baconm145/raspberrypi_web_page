@@ -306,9 +306,6 @@
 	div.foot right {
 		text-align: right;
 	}
-	container right {
-		text-align: right;
-	}
 	</style>
       <meta name="viewport" content="width=550, initial-scale=1">
       <title><?php echo CAM_STRING; ?></title>
@@ -322,7 +319,7 @@
    <body onload="setTimeout('init(<?php echo "$mjpegmode, $video_fps, $divider" ?>);', 100);">
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" <?php getdisplayStyle('navbar', $userLevel); ?>>
          <div class="container">
-			<right>Baconm145</right>
+			<p align="right">Baconm145</p>
             <div class="navbar-header">
                <a class="navbar-brand"><?php echo CAM_STRING; ?></a>
             </div>
