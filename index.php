@@ -306,7 +306,7 @@
 	div.foot right {
 		text-align: right;
 	}
-	navbar-header right {
+	container right {
 		text-align: right;
 	}
 	</style>
@@ -322,9 +322,9 @@
    <body onload="setTimeout('init(<?php echo "$mjpegmode, $video_fps, $divider" ?>);', 100);">
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" <?php getdisplayStyle('navbar', $userLevel); ?>>
          <div class="container">
+			<right>Baconm145</right>
             <div class="navbar-header">
                <a class="navbar-brand"><?php echo CAM_STRING; ?></a>
-			   <right>Baconm145</right>
             </div>
          </div>
       </div>
