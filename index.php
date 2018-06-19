@@ -675,7 +675,7 @@
 	<div class="foot">
 		<div class="container">
 			<p>By
-			<a>Vladimir Busyrev</a>, <a>Kulaev Ivan</p>
+			<a class="navbar-brand" >Vladimir Busyrev</a>, <a class="navbar-brand">Kulaev Ivan</p>
 			<a class="rightstrdown">Разработчики</a>
 			<a class="rightstrdown">Устройство</a>
 			</p>			
