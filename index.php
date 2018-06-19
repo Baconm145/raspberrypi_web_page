@@ -307,8 +307,8 @@
 		text-align: right;
 	}
 	.rightstr {
-    float: left; 
-    width: 100%
+    float: right; 
+    width: 0%
 	</style>
       <meta name="viewport" content="width=550, initial-scale=1">
       <title><?php echo CAM_STRING; ?></title>
