@@ -660,7 +660,7 @@
       </div>
 	<div class="foot">
 		<left>&copy; Vladimir Busyrev, Kulaev Ivan</left>
-		<right>О нас</right>
+		<a href="http://www.google.ru">Ссылка на блоке</a>
 	</div>
       <?php if ($debugString != "") echo "$debugString<br>"; ?>
    </body>
