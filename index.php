@@ -311,13 +311,13 @@
     float: right;
 	color: #777;
 	font-size: 9pt;
-    width: 20%
+    width: 25%
 	}
 	.rightstrdown {;
     float: right;
 	color: #777;
 	font-size: 9pt;
-    width: 20%
+    width: 10%
 	}
 	</style>
       <meta name="viewport" content="width=550, initial-scale=1">
@@ -674,7 +674,10 @@
       </div>
 	<div class="foot">
 		<div class="container">
-			<a>By Vladimir Busyrev, Kulaev Ivan</a>
+			<p>By , Kulaev Ivan</p>
+			<a>Vladimir Busyrev</a>
+			<p>, </p>
+			<a>Kulaev Ivan</p>
 			<a class="rightstrdown">Разработчики</a>
 			<a class="rightstrdown">Устройство</a>
 		</div>
