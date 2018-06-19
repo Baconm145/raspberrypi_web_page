@@ -298,7 +298,7 @@
 		width: 100%;
 		font-family: Glyphicons Halflings;
 	}
-	div.foot about {
+	div.foot p{
 		text-align: right;
 	}
 	</style>
@@ -655,6 +655,7 @@
       </div>
 	<div class="foot">
 		&copy; Baconm145
+		<p> О нас </p>
 	</div>
       <?php if ($debugString != "") echo "$debugString<br>"; ?>
    </body>
