@@ -675,8 +675,8 @@
 	<div class="foot">
 		<div class="container">
 			<left>brought you by Vladimir Busyrev, Kulaev Ivan</left>
-			<p class="rightstr">Разработчики</p>
-			<p class="rightstr">Устройство</p>
+			<p class="rightstrdown">Разработчики</p>
+			<p class="rightstrdown">Устройство</p>
 		</div>
 	</div>
       <?php if ($debugString != "") echo "$debugString<br>"; ?>
