@@ -301,7 +301,7 @@
 	
 	div.foot left {
 		float: left;
-		width: 87%;
+		width: 90%;
 	}
 	div.foot right {
 		text-align: right;
@@ -661,7 +661,7 @@
 	<div class="foot">
 		<left>&copy; Vladimir Busyrev, Kulaev Ivan</left>
 		<a href="http://www.google.ru">Разработчики    </a>
-		<a href="http://www.google.ru">Принцип работы</a>
+		<a href="http://www.google.ru">Устройство</a>
 	</div>
       <?php if ($debugString != "") echo "$debugString<br>"; ?>
    </body>
