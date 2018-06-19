@@ -674,10 +674,11 @@
       </div>
 	<div class="foot">
 		<div class="container">
-			<p>By , Kulaev Ivan</p>
+			<p>By
 			<a>Vladimir Busyrev</a>
-			<p>, </p>
+			,
 			<a>Kulaev Ivan</p>
+			</p>			
 			<a class="rightstrdown">Разработчики</a>
 			<a class="rightstrdown">Устройство</a>
 		</div>
