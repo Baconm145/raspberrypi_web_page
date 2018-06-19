@@ -314,7 +314,7 @@
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" <?php getdisplayStyle('navbar', $userLevel); ?>>
          <div class="container">
             <div class="navbar-header">
-               <a class="navbar-brand" href="#"><?php echo CAM_STRING; ?></a>
+               <a class="navbar-brand"><?php echo CAM_STRING; ?></a>
             </div>
          </div>
       </div>
