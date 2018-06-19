@@ -292,19 +292,11 @@
 	div.foot {
 		position: fixed;
 		left: 0; bottom: 0;
-		padding: 10px;
+		padding: 7px;
 		background: #222;
 		color: #777;
 		width: 100%;
 		font-family: Glyphicons Halflings;
-	}
-	
-	div.foot left {
-		float: left;
-		width: 50%;
-	}
-	div.foot right {
-		text-align: right;
 	}
 	.rightstr {
 	margin-top: 9px;
